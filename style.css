@@ -1429,3 +1429,47 @@ html {
         padding: 20px 0;
     }
 }
+
+@media (max-width: 376px) {
+    .header__input {
+        padding-right: 32px;
+    }
+
+    .header__btn {
+        position: relative;
+        width: 100%;
+    }
+
+    .service {
+        width: calc(100% /1);
+        text-align: left;
+    }
+
+    .values__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .values1,
+    .values2 {
+        margin-right: 0px;
+    }
+
+    .rectangle__links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .link1 {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .link {
+        width: calc(100% / 2);
+    }
+
+    .footer__info {
+        text-align: center;
+    }
+}
